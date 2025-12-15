@@ -55,7 +55,7 @@ So, the final table will be like that(With __Empno__ being the primary key, and 
 |  1004   |    1A    | Marita Dubery    | Executive Secretary    | 2019-03-13 | 53720.04  |
 |  1005   |    1C    | Meg Holleran     | Executive Secretary    | 2014-10-20 | 73794.5   |
 
-And the new Department table will be like that(With the __Deptcode__ being the primary key):
+And the new Department table will be like that(With the __Deptcode__ being the primary key), also I removed the last line, because we don't need no more, a primary key should not repeat, and makes sense if you think that it's the same data:
 
 |__Deptcode__| Deptlocation   |
 |------------|----------------|
@@ -63,4 +63,3 @@ And the new Department table will be like that(With the __Deptcode__ being the p
 |     1C     |   Changhua     |
 |     4B     |   Lilla Edet   |
 |     1A     |   Lemery       |
-|     1C     |   Changhua     |
